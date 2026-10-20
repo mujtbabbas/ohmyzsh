@@ -72,6 +72,19 @@ Twitter), and join us on [Discord](https://discord.gg/ohmyzsh).
 
 </details>
 
+## About This Standalone Edition
+
+- **Main repository:** [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
+- **Based on version:** upstream commit `0650a250405af1e480b1ecf8c33bc960b9f333f5` (snapshotted 2026-10-20; upstream HEAD dated 2026-10-19; upstream default branch is `master`, this edition uses `main`)
+- **This edition:** v1.1.0 (v1.0.0 = clean baseline of the upstream version above)
+- **What was done:** Converted from a fork into a standalone repository (fresh history, baseline commit), then enhanced in place by Syed Mujtaba Abbas.
+- **Enhancements in this edition (v1.1.0):**
+  - This About section, with full upstream credit and version provenance
+  - `ENHANCEMENTS.md` — per-version changelog of everything changed in this edition
+  - `.markdownlint.json` + `.github/workflows/markdown-check.yml` — markdown linting automation for the 400+ plugin/theme READMEs (upstream CI, installer and dependencies workflows kept as-is)
+  - Dependabot and .editorconfig: upstream already ships both (`.github/dependabot.yml` covering github-actions and the pip dependencies-updater; a root `.editorconfig`) — verified and kept exactly as-is
+- **Credit & licence:** All original work belongs to Robby Russell and the Oh My Zsh contributors. The root licence is preserved unchanged — see `LICENSE.txt` (MIT License); several bundled plugins carry their own licence files (MIT, Apache-2.0, MPL-2.0, dual MIT/GPLv3, BSD-style), all preserved exactly as-is. This edition adds the enhancements listed above only.
+
 ## Getting Started
 
 ### Operating System Compatibility
